@@ -208,7 +208,7 @@ const skillBuilder = Alexa.SkillBuilders.custom();
 exports.handler = skillBuilder
   .addRequestHandlers(
     LaunchRequestHandler,
-    GreetMeIntentHandler,
+    ProfileNameIntentHandler,
     EmailIntentHandler,
     MobileIntentHandler,
     HelpIntentHandler,
